@@ -1,7 +1,17 @@
 #!/usr/bin/perl -w
-# show-dhcp-shared-network.pl
-# Output dhcp-server's shared-network-name in JSON format
-#
+=head1 SCRIPT NAME
+
+show-dhcp-shared-network.pl
+
+=head1 DESCRIPTION
+
+Output dhcp-server's shared-network-name in JSON format
+
+=head1 USAGE
+
+perl show-dhcp-shared-network.pl
+
+=cut
 
 use strict;
 use JSON;
